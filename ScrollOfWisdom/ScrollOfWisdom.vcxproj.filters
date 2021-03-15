@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="NSW_api">
+      <UniqueIdentifier>{996fbee2-d5bd-428d-970d-eff1b47ca8b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External">
+      <UniqueIdentifier>{72e92d44-6c79-4bbf-91f3-0480acff523c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\includes\NSW_api\Batcher.cpp">
+      <Filter>NSW_api</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\includes\NSW_api\EColor.cpp">
+      <Filter>NSW_api</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\includes\NSW_api\EColorCollection.cpp">
+      <Filter>NSW_api</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\includes\NSW_api\EDataWatcher.cpp">
+      <Filter>NSW_api</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\includes\NSW_api\EFont.cpp">
+      <Filter>NSW_api</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\includes\NSW_api\EGabarite.cpp">
+      <Filter>NSW_api</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\includes\NSW_api\EGraphicCore.cpp">
+      <Filter>NSW_api</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\includes\NSW_api\ETextureAtlas.cpp">
+      <Filter>NSW_api</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\includes\NSW_api\EUtils.cpp">
+      <Filter>NSW_api</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\includes\NSW_api\EWindow.cpp">
+      <Filter>NSW_api</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\includes\glad\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EWindowMain.h">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="EWindowMain.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ext\includes\NSW_api\Batcher.h">
+      <Filter>NSW_api</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\includes\NSW_api\EColor.h">
+      <Filter>NSW_api</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\includes\NSW_api\EColorCollection.h">
+      <Filter>NSW_api</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\includes\NSW_api\EDataWatcher.h">
+      <Filter>NSW_api</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\includes\NSW_api\EFont.h">
+      <Filter>NSW_api</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\includes\NSW_api\EGabarite.h">
+      <Filter>NSW_api</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\includes\NSW_api\EGraphicCore.h">
+      <Filter>NSW_api</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\includes\NSW_api\Enums.h">
+      <Filter>NSW_api</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\includes\NSW_api\ETextureAtlas.h">
+      <Filter>NSW_api</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\includes\NSW_api\EUtils.h">
+      <Filter>NSW_api</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\includes\NSW_api\EWindow.h">
+      <Filter>NSW_api</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\includes\glad\glad.h">
+      <Filter>NSW_api</Filter>
+    </ClInclude>
+    <ClInclude Include="EInitiator.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="EGabariteExternal.h">
+      <Filter>External</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -3,7 +3,7 @@
 EWindowMain::EWindowMain()
 {
 
-	button_array_collection_massive* jc_massive = new button_array_collection_massive(this);
+	/*button_array_collection_massive* jc_massive = new button_array_collection_massive(this);
 	button_array_collection_massive_list.push_back(jc_massive);
 	*jc_massive->size_x = 600.0f;
 	*jc_massive->size_y = 300.0f;
@@ -28,7 +28,20 @@ EWindowMain::EWindowMain()
 
 	but = new EButton(500.0f, 0.0f, 200.0f, 15.0f);
 		but->master_window = this;
-		jc_button_array->button_list.push_back(but);
+		jc_button_array->button_list.push_back(but);*/
+
+	button_massive* just_created_button_massive = new button_massive;
+
+	*just_created_button_massive->position_x = 15.0f;
+	*just_created_button_massive->position_y = 15.0f;
+
+	*just_created_button_massive->size_x = 500.0f;
+	*just_created_button_massive->size_y = 150.0f;
+	button_massive_list.push_back(just_created_button_massive);
+
+	button_block* just_created_button_block = new button_block;
+	*just_created_button_block->size_x = 100.0f;
+	*just_created_button_block->size_y = 20.0f;
 
 }
 

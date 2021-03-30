@@ -1550,6 +1550,7 @@ void EWindow::default_draw_interface(float _d)
 
 
 	}*/
+	/**/
 	for (button_array_collection_massive* massive : button_array_collection_massive_list)
 	{
 		float total_rama_offset_x = 0.0f;
@@ -1696,6 +1697,21 @@ void EWindow::default_draw_interface(float _d)
 			{
 				b->text_pass(EGraphicCore::batch);
 			}
+	}
+
+	for (button_massive* bm : button_massive_list)
+	{
+		EGraphicCore::batch->setcolor(EColor::COLOR_DARK_BLUE);
+			EGraphicCore::batch->draw_rama(*bm->position_x, *bm->position_y, *bm->size_x, *bm->size_y, 2.0f, EGraphicCore::gabarite_white_pixel);
+
+		EGraphicCore::batch->setcolor_alpha(EColor::COLOR_YELLOW, 0.5f);
+			EGraphicCore::batch->draw_gabarite(*bm->position_x, *bm->position_y, *bm->size_x, *bm->size_y, EGraphicCore::gabarite_white_pixel);
+
+		for (button_block* bb : bm->button_block_list)
+		{
+			EGraphicCore::batch->setcolor(EColor::COLOR_DARK_BLUE);
+
+		}
 	}
 
 	//draw graphic for button group

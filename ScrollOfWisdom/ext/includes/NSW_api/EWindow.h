@@ -303,7 +303,30 @@ public:
 
 	std::vector<button_array_collection_massive*> button_array_collection_massive_list;
 
+	struct button_block
+	{
+		float* position_x = new float(0.0f);
+		float* position_y = new float(0.0f);
 
+		float* size_x = new float(0.0f);
+		float* size_y = new float(0.0f);
+
+		std::vector <EButton*> button_list;
+	};
+
+	struct button_massive
+	{
+		float* position_x				= new float(0.0f);
+		float* position_y				= new float(0.0f);
+
+		float* size_x					= new float(0.0f);
+		float* size_y					= new float(0.0f);
+
+		std::vector <button_block*>		button_block_list;
+
+	};
+
+	std::vector <button_massive*>		button_massive_list;
 	//void draw_lightmap();
 
 };
@@ -536,6 +559,15 @@ public:
 
 	bool* is_checkbox = new bool(false);
 	bool* is_checked = new bool(false);
+
+
+
+	///////		button block section		///////
+	bool* reset_x_and_push_y = new bool (false);
+
+	float* button_block_offset_x = new float(0.0f);
+	float* button_block_offset_y = new float(0.0f);
+	///////		--------------------		///////
 };
 
 class EButtonGroup
